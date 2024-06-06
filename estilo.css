@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.topo {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.dog {
+    width: 100%;
+    background-attachment: repeat;
+    max-width: 1024px;
+    background-position: center;
+    background-size: cover;   
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    width: 100px;
+    margin: 0;
+}
+
+.logo h1, p {
+    display: flex;
+    margin: 0;
+    text-align: center;
+}
+
+.servico {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 25px;
+    color: #3c184e;
+}
+
+.servico p {
+    text-align: justify;
+    line-height: 35px;
+    color: #3c184e;
+    font-size: 20px;
+}
+
+.img-servico {
+    margin: 0 auto 20px auto;
+    width: 100%;
+    max-width: 1024px;
+}
+.fotos-servico {
+    margin: 0;
+    box-shadow: 10px 10px 10px #1f26875e;
+}
+
+.redes-sociais {
+    background-color: #3c184e;
+    font-size: 36px;
+    padding: 100px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.redes-sociais p {
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+   width: 400px;
+    
+}
+
+.marcas {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
