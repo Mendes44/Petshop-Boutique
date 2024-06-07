@@ -1,85 +1,200 @@
-body {
+/*Inicio do Estilo Global*/
+* {
     margin: 0;
-    width: 100%;
-}
-
-.topo {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1024px;
-}
-
-.dog {
-    width: 100%;
-    background-attachment: repeat;
-    max-width: 1024px;
-    background-position: center;
-    background-size: cover;   
-    display: flex;
-}
-
-.logo {
-    display: flex;
-    width: 100px;
-    margin: 0;
-}
-
-.logo h1, p {
-    display: flex;
-    margin: 0;
-    text-align: center;
-}
-
-.servico {
-    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
-    margin: 0 auto;
-    max-width: 1024px;
-    width: 100%;
-}
+    text-decoration: none;
+  }
 
-h2 {
-    font-weight: bold;
-    font-size: 25px;
+  .container{
+    padding: 120px 80px;
+  }
+
+  .destaque {
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+  }
+
+/*Fim CSS Global*/
+
+/* Inicio CSS Banner*/
+.banner-top {
+    background-image: url("img/banner-topo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+.container-nome-logo {
     color: #3c184e;
 }
 
-.servico p {
+.container-nome-logo img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.container-nome-logo .nome-petshop {
+    font-size: 35px;
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+
+.slogan {
+    font-size: 14px;
+    text-align: left;
+    margin: 0;
+    margin-left: 12px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container-titulo-top {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0;
+    background: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
+.titulo-top {
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px;
+}
+
+.link-fale-conosco {
+    text-align: center;
+    width: 200px;
+    padding: 10x 25px;
+    font-size: 20px;
+    background-color: #3c184e;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.link-fale-conosco a {
+    color: #fff;
+}
+
+.container-titulo-top img {
+    width: 20px;
+}
+/*FIM DO BANNER*/
+
+
+/* SERVIÇO */
+.box-servicos {
+    max-width: 800px;
+    color: #3c184e;
+    margin: 0 auto 50px;
+    line-height: 30px;
+    font-size: 20px;
     text-align: justify;
-    line-height: 35px;
+    padding-bottom: 10px;
+}
+
+.box-servico li{
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.box-servico-img {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.box-servico-img img {
+    box-shadow: 3px 6px 10px 6px #0000005c;
+    border-radius: 5px;
+}
+/* FIM SERVIÇO */
+
+/* FAIXA - REDES SOCIAIS */
+
+.faixa {
+    background-color: #3c184e;
+    text-align: center;
+}
+
+.text-faixa {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.redes-sociais a {
+    margin: 0 20px;
+}
+
+.redes-sociais img {
+    width: 50px;
+    height: 50px;
+}
+/* FIM FAIXA - REDES SOCIAIS */
+
+/* MARCAS */
+
+.container-marcas {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo-marca {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+/* FIM MARCAS */
+
+/* ONDE ESTAMOS */
+
+.onde-estamos {
+    text-align: center;
+}
+
+.onde-estamos p {
     color: #3c184e;
     font-size: 20px;
+    margin: 0 0 45px;
 }
 
-.img-servico {
-    margin: 0 auto 20px auto;
-    width: 100%;
-    max-width: 1024px;
+.onde-estamos iframe {
+    width: 800px;
+    height: 450px;
 }
-.fotos-servico {
-    margin: 0;
-    box-shadow: 10px 10px 10px #1f26875e;
-}
+/* FIM ONDE ESTAMOS*/
 
-.redes-sociais {
+/* RODAPE*/
+
+.rodape {
     background-color: #3c184e;
-    font-size: 36px;
-    padding: 100px;
-    width: 100%;
-    max-width: 1024px;
+    padding: 20px 0;
 }
 
-.redes-sociais p {
-    color: #fff;
+.text-rodape {
+   color: #fff;
+    font-size: 12px;
     text-align: center;
-    font-family: sans-serif;
-   width: 400px;
-    
 }
 
-.marcas {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
+.text-rodape span {
+    font-weight: bold;
 }
+
+/* FIM RODAPE*/
 
