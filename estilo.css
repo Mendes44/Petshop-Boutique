@@ -82,6 +82,11 @@
     background-color: #3c184e;
     border-radius: 10px;
     margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+.link-fale-conosco:hover {
+    background-color: #25D366; /* Cor verde do WhatsApp */
 }
 
 .link-fale-conosco a {
